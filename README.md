@@ -7,7 +7,7 @@
 
 > این یک **نمونه کار** است. نام کافه («نمونه»)، قیمت‌ها و اطلاعات تماس نمایشی‌اند.
 
-**🔗 دموی زنده:** `https://<نام-کاربری>.github.io/<نام-ریپو>/`
+**🔗 دموی زنده:** https://ye8754467545-ship-it.github.io/coffee-menu-demo/
 
 <p align="center">
   <img src="docs/mobile-light.jpg" width="240" alt="صفحه اول، حالت روز">
