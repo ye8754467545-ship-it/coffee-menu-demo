@@ -3,7 +3,8 @@
 
 // Final public address of the online menu. Leave empty during development:
 // the QR code then encodes the current URL and is labelled as a test code.
-export const MENU_URL = '';
+export const MENU_URL = 'https://ye8754467545-ship-it.github.io/coffee-menu-demo/';
+
 
 // Sample prices are stored in thousand Toman.
 export const PRICE_UNIT = { fa: 'هزار تومان', en: 'K Toman' };
