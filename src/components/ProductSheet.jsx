@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { useLang } from '../i18n';
 import { useMenu } from '../MenuContext';
 import { imageFor, sectionOf } from '../data/menu';
+import { useLive } from '../live/LiveMenu';
 
 export default function ProductSheet() {
   const { product, closeProduct } = useMenu();
@@ -11,6 +12,7 @@ export default function ProductSheet() {
   const sheetRef = useRef(null);
   const scrollRef = useRef(null);
   const drag = useRef(null);
+  const live = useLive(shown);
 
   useEffect(() => {
     if (product) {
@@ -53,7 +55,7 @@ export default function ProductSheet() {
   };
 
   if (!shown) return null;
-  const p = shown;
+  const p = live;
   const img = imageFor(p);
   const section = sectionOf(p);
 

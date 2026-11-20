@@ -5,6 +5,13 @@
 // the QR code then encodes the current URL and is labelled as a test code.
 export const MENU_URL = 'https://ye8754467545-ship-it.github.io/coffee-menu-demo/';
 
+// Address of the price server (folder /server), e.g. 'https://cafe-x-api.liara.run'.
+// Empty = demo mode: the admin panel (#/admin) saves in this browser only.
+// Can also be set at build time: VITE_MENU_API=https://... npm run build
+export const MENU_API = import.meta.env.VITE_MENU_API || '';
+
+// Panel password in demo mode only. A real cafe's password lives on the server.
+export const DEMO_PASSWORD = '1234';
 
 // Sample prices are stored in thousand Toman.
 export const PRICE_UNIT = { fa: 'هزار تومان', en: 'K Toman' };

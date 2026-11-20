@@ -1,0 +1,13 @@
+{
+  "name": "cafe-menu-price-server",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Live price/stock server for the cafe QR menu. No dependencies.",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
